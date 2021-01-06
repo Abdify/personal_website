@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.fab, .fas{
+    color: #4F45CE;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #272727;
+    margin: 2px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #272727;
+}
+
+section{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+
+.half_width{
+    width: 40%;
+    margin: 30px 0 0 30px;
+    padding-left: 4%;
+}
+
+.orange_highlight{
+    color:#575ADD;
+    background-color: #d0d0d5;
+}
+
+.btn{
+    padding: 12px 30px;
+    display: inline-block;
+    margin: 20px 0;
+    background-image: linear-gradient(90deg, #575ADD, #4F45CE);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.half_width img{
+    max-width: 70%;
+}
+
+.skills_section .half_width{
+    margin-left: 0;
+}
+
+.skills_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    border-left: 5px solid #4F45CE; 
+}
+
+.skills_box h3{
+    margin: 0;
+}
+
+
+
+.latest_work_section{
+    background-color: #f9f9fc;
+    flex-direction: column;
+    height: 700px;
+}
+.work_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one_third_width{
+    width: 20%;
+    height: 90%;
+    margin: 2%;
+
+    box-shadow: 0 0 20px gray;
+    border-radius: 10px;
+    
+}
+.one_third_width img{
+    width: 100%;
+    margin: 20px 0 ;
+}
+.one_third_width h4{
+    margin: 0 4%;
+}
+.one_third_width p{
+    margin: 0 4%;
+    font-size: 12px;
+}
+
+.contact_section{
+    align-items: center;
+    justify-content: center;
+}
+
+.chat{
+    background-image: url("images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    width: 60%;
+    padding: 4%;
+    
+}
+.chat h1{
+    float: left;
+    color: white;
+}
+.chat a{
+    float: right;
+}
